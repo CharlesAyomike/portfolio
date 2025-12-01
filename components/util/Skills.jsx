@@ -1,56 +1,77 @@
 "use client";
 import React from "react";
 import { AnimatedTooltip } from "../ui/animated-tooltip";
-import html from "@/public/img/html.png";
-import css from "@/public/img/css.png";
 import react from "@/public/img/react.png";
 import node from "@/public/img/node.png";
 import js from "@/public/img/js.png";
 import ts from "@/public/img/ts.png";
+import github from "@/public/img/github.png";
+import expo from "@/public/img/expo.png";
+import nestjs from "@/public/img/nest.jpg";
+import nextjs from "@/public/img/next.png";
+import rn from "@/public/img/rn.png";
 
-const people = [
+const skills = [
   {
     id: 1,
-    name: "John Doe",
-    designation: "Software Engineer",
+    name: "Type script",
+    designation: "Language",
     image: ts,
   },
   {
     id: 2,
-    name: "Robert Johnson",
-    designation: "Product Manager",
+    name: "JavaScript",
+    designation: "Language",
     image: js,
   },
   {
     id: 3,
-    name: "Jane Smith",
-    designation: "Data Scientist",
+    name: "NodeJs",
+    designation: "Backend",
     image: node,
   },
   {
     id: 4,
-    name: "Emily Davis",
-    designation: "UX Designer",
+    name: "React",
+    designation: "Web",
     image: react,
   },
   {
     id: 5,
-    name: "Tyler Durden",
-    designation: "Soap Developer",
-    image: css,
+    name: "GitHub",
+    designation: "Version control",
+    image: github,
   },
   {
     id: 6,
-    name: "Dora",
-    designation: "The Explorer",
-    image: html,
+    name: "React Native",
+    designation: "Mobile app",
+    image: rn,
+  },
+  {
+    id: 7,
+    name: "Expo",
+    designation: "Mobile app",
+    image: expo,
+  },
+  {
+    id: 8,
+    name: "Nestjs",
+    designation: "Backend",
+    image: nestjs,
+  },
+  {
+    id: 9,
+    name: "Nextjs",
+    designation: "Frontend",
+    image: nextjs,
   },
 ];
 
 export function Skills() {
   return (
     <div className="flex flex-row items-center justify-center gap-10 flex-wrap">
-      <AnimatedTooltip items={people} />
+      <AnimatedTooltip items={skills} />
     </div>
   );
 }

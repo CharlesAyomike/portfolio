@@ -22,8 +22,8 @@ const projects = [
     title: "Lyvads",
     description:
       "Lyvads is a platform that connects creators with businesses, enabling seamless content collaborations through structured requests, fast media delivery, and secure payments.",
-    link: "https://lyvads.com",
-    iosLink: "https://lyvads.com/ios",
+    link: "https://play.google.com/store/apps/details?id=com.lyvads.lyvads",
+    iosLink: "https://apps.apple.com/ng/app/lyvads/id6741110030,
   },
   {
     image: "/img/ea.png",
@@ -31,8 +31,8 @@ const projects = [
     title: "Everythingafrican",
     description:
       "I designed and built the EverythingAfrican mobile app, enabling users to discover, buy, and interact with African-inspired products seamlessly. I handled the full mobile experience: UI/UX, feature development, API integration, state management, and performance optimization",
-    link: "https://lyvads.com",
-    iosLink: "https://lyvads.com/ios",
+    iosLink: "https://apps.apple.com/us/app/everythingafrican/id6737781846",
+    link: "https://play.google.com/store/apps/details?id=com.lascom.everythingafrican",
   },
   {
     image: "/img/cuzoo.jpg",
@@ -40,8 +40,9 @@ const projects = [
     title: "Cuzoo",
     description:
       "I designed the full dashboard interface for Cuzoo, a Nigeria-based courier and logistics app that connects users with verified riders for package pickup & delivery. The dashboard supports core workflows like delivery requests, rider/agent management, package tracking, and order status updates — all wrapped in a clean, intuitive UI to streamline logistics operations.",
-    link: "https://lyvads.com",
-    iosLink: "https://lyvads.com/ios",
+    link: "https://play.google.com/store/apps/details?id=com.cuzoo&hl=en",
+    iosLink:
+      "https://apps.apple.com/ng/app/cuzoo-package-delivery/id6443609618",
   },
 ];
 export default function Home() {
@@ -202,8 +203,7 @@ export default function Home() {
             <h4 className="text-3xl font-medium">Contact Me</h4>
 
             <p>
-              Tools and technologies I use to build modern, responsive, and
-              scalable web applications.
+              you can reach me through any of the medium below
             </p>
           </div>
           <Contact />

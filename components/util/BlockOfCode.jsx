@@ -10,7 +10,11 @@ export function BlockOfCode() {
     { name: "JavaScript", color: "bg-yellow-500" },
     { name: "React", color: "bg-blue-500" },
     { name: "Next.js", color: "bg-gray-800" },
+    { name: "Nodejs", color: "bg-teal-500" },
+    { name: "Nestjs", color: "bg-teal-500" },
     { name: "Tailwind CSS", color: "bg-teal-500" },
+    { name: "React Native", color: "bg-teal-500" },
+    { name: "Expo", color: "bg-teal-500" },
   ];
 
   return (
