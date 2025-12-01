@@ -23,7 +23,7 @@ const projects = [
     description:
       "Lyvads is a platform that connects creators with businesses, enabling seamless content collaborations through structured requests, fast media delivery, and secure payments.",
     link: "https://play.google.com/store/apps/details?id=com.lyvads.lyvads",
-    iosLink: "https://apps.apple.com/ng/app/lyvads/id6741110030,
+    iosLink: "https://apps.apple.com/ng/app/lyvads/id6741110030",
   },
   {
     image: "/img/ea.png",
@@ -202,9 +202,7 @@ export default function Home() {
           <div className="mb-14 text-center">
             <h4 className="text-3xl font-medium">Contact Me</h4>
 
-            <p>
-              you can reach me through any of the medium below
-            </p>
+            <p>you can reach me through any of the medium below</p>
           </div>
           <Contact />
         </div>
