@@ -3,6 +3,7 @@
 import { useEffect, useState } from "react";
 import Image from "next/image";
 import { CardBody, CardContainer, CardItem } from "@/components/ui/3d-card";
+import Link from "next/link";
 
 export function ProjectCard(props) {
   const [isIOS, setIsIOS] = useState(false);
@@ -43,15 +44,15 @@ export function ProjectCard(props) {
         </CardItem>
 
         <div className="flex justify-between items-center mt-20">
-          <CardItem
-            translateZ={20}
-            as="button"
-            target="__blank"
-            href={isIOS ? props.iosLink : props.link}
-            className="px-4 py-2 rounded-xl bg-black dark:bg-white dark:text-black text-white text-xs font-bold"
-          >
-            View Project
-          </CardItem>
+          <Link target="__blank" href={isIOS ? props.iosLink : props.link}>
+            <CardItem
+              translateZ={20}
+              as="button"
+              className="px-4 py-2 cursor-pointer rounded-xl bg-black dark:bg-white dark:text-black text-white text-xs font-bold"
+            >
+              View Project
+            </CardItem>
+          </Link>
         </div>
       </CardBody>
     </CardContainer>
