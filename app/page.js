@@ -114,12 +114,18 @@ export default function Home() {
               transition={{ duration: 1, ease: "easeInOut" }}
               className="gap-3 flex mt-4"
             >
-              <button className="flex gap-2 cursor-pointer items-center justify-center bg-cyan-100 px-2 dark:bg-cyan-950 rounded-3xl">
-                <TiDownload />
-                Download resume
+              <button className=" bg-cyan-100 px-2 dark:bg-cyan-950 rounded-xl">
+                <Link
+                  href="/Charles_Ayomike_Resume.pdf"
+                  className="flex gap-2 items-center justify-center"
+                  target="_blank"
+                >
+                  <TiDownload />
+                  Download resume
+                </Link>
               </button>
               <Button
-                borderRadius="1.75rem"
+                borderRadius="0.75rem"
                 className="bg-white dark:bg-slate-900 text-black dark:text-white border-neutral-200 dark:border-slate-800"
               >
                 Hire me
